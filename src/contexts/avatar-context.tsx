@@ -32,6 +32,7 @@ const AvatarContextProvider: React.FC<IAvatarContextProviderProps> = ({
   const [hasError, setHasError] = useState(false);
   const [files, setFiles] = useState<File[]>([]);
 
+  // thats the guy who parents must have access to
   const [croppedImage, setCroppedImage] = useState('');
 
   useEffect(() => {

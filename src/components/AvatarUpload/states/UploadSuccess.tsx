@@ -12,6 +12,7 @@ interface Props {
 }
 
 const MIN_VALUE = 2;
+const MAX_VALUE = 6;
 
 const UploadSuccess: React.FC<Props> = (props) => {
   const [isFileCropped, setIsFileCropped] = useState(false);
@@ -42,7 +43,7 @@ const UploadSuccess: React.FC<Props> = (props) => {
           defaultValue={MIN_VALUE}
           type="range"
           min={MIN_VALUE}
-          max={6}
+          max={MAX_VALUE}
           step={0.01}
         />
 

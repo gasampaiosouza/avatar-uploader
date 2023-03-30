@@ -5,13 +5,13 @@ import getCroppedImg from 'helpers/get-cropped-image';
 
 import Cropper from 'react-easy-crop';
 
+type IArea = { x: number; y: number; width: number; height: number };
+
 interface Props {
   logo: string;
   zoom: number;
   setZoom: React.Dispatch<React.SetStateAction<number>>;
 }
-
-type IArea = { x: number; y: number; width: number; height: number };
 
 const UploadedLogo: React.FC<Props> = (props) => {
   const DEFAULT_ASPECT = 1;
