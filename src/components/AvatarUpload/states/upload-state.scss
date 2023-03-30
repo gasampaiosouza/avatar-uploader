@@ -1,0 +1,122 @@
+.upload-state {
+  $size: 114px;
+
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+
+  padding: 30px;
+  gap: 32px;
+
+  &.success {
+    cursor: default;
+  }
+
+  &.saved {
+    width: auto;
+  }
+
+  &.error {
+    .error-image {
+      width: $size;
+      height: $size;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      background: #C3CBD5;
+      border-radius: $size * 2;
+    }
+
+    .reset-button {
+      cursor: pointer;
+
+      background: 0;
+      border: 0;
+      text-decoration: underline;
+      color: #3D485F;
+      font-size: 16px;
+      padding: 0;
+    }
+
+    span {
+      color: #C64D32;
+      margin-bottom: 0;
+    }
+  }
+
+  .reactEasyCrop_Container {
+    width: $size;
+    height: $size;
+
+    position: relative;
+  }
+
+  &_logo {
+    overflow: hidden;
+
+
+    min-width: $size;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: $size;
+    height: $size;
+
+    border-radius: $size * 2;
+  }
+
+  &_content {
+    width: 100%;
+    max-width: 280px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    span {
+      display: block;
+
+      font-weight: 400;
+      font-size: 16px;
+
+      color: #677489;
+
+      margin-bottom: 13px;
+    }
+
+    .save-button {
+      cursor: pointer;
+
+      color: #fff;
+      background: #3D485F;
+
+      font-family: Inter;
+
+      border-radius: 16px;
+      border: 0;
+
+      padding: 12px 35px;
+
+      align-self: flex-end;
+      font-weight: 700;
+      margin-top: 35px;
+
+      transition: .2s ease-in-out;
+
+      &:hover {
+        filter: brightness(1.3);
+      }
+    }
+  }
+
+
+
+}
