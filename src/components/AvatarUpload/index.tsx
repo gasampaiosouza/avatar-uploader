@@ -29,14 +29,19 @@ function UploadStates() {
   }, []);
 
   if (!hasFile) {
+    console.log('cai 1');
+
     return <InitialUpload />;
   }
 
-  if (hasFile && hasError) {
-    return <UploadError />;
+  if (hasFile && !hasError) {
+    console.log('cai 2');
+
+    return <UploadSuccess picture={files?.at(-1)?.preview || ''} />;
   }
 
-  return <UploadSuccess picture={files?.at(-1)?.preview || ''} />;
+  console.log('cai 3');
+  return <UploadError />;
 }
 
 export default AvatarUpload;
