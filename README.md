@@ -10,14 +10,20 @@
     <br />
     a react component to upload and crop avatars.
     <br />
+    <br />
     this is a tech test to <a href="https://croct.com">croct</a>, where i should develop a react component that receives and crops any uploaded image.
 </p>
 
 ## 📟 Usage
 
-you can see this project live by [clicking here](avatar-uploader-ebon.vercel.app) or going to this repo's about section
+you can see this project live by [**clicking here**](avatar-uploader-ebon.vercel.app) or going to this repo's **about section**
+<br />
 
-if you want to see how it's made, you can follow those steps:
+---
+
+<br />
+
+if you want to see how it was made, you can follow those steps:
 
 1. clone this repository:
 
@@ -37,7 +43,7 @@ if you want to see how it's made, you can follow those steps:
   $ pnpm dev
 ```
 
-4. the dev environment will be available at: [`http://localhost:5173/`](http://localhost:5173/)
+4. the dev environment will be available at: [*`http://localhost:5173/`*](http://localhost:5173/)
 
 ## 📌 Stack
 
