@@ -8,10 +8,10 @@
     <br />
     <strong>Avatar Uploader</strong>
     <br />
-    a React component to upload and crop avatars.
+    a react component to upload and crop avatars.
+    <br />
+    this is a tech test to <a href="https://croct.com">croct</a>, where i should develop a react component that receives and crops any uploaded image.
 </p>
-
-this is a tech test to [croct](https://croct.com), where i should develop a react component that receives and crops any uploaded image.
 
 ## 📟 Usage
 
