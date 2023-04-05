@@ -1,18 +1,6 @@
 # Avatar uploader
 
-<p align="center">
-    <a href="https://croct.com">
-      <img src="https://cdn.croct.io/brand/logo/repo-icon-green.svg" alt="Croct" height="80"/>
-    </a>
-    <br />
-    <br />
-    <strong>Avatar Uploader</strong>
-    <br />
-    a react component to upload and crop avatars.
-    <br />
-    <br />
-    this is a tech test to <a href="https://croct.com">croct</a>, where i should develop a react component that receives and crops any uploaded image.
-</p>
+a react component to upload and crop avatars.
 
 ## 📟 Usage
 
