@@ -1,45 +1,14 @@
-# Avatar uploader
+# Avatar Uploader 🌟
 
-a react component to upload and crop avatars.
+![Demo](https://github.com/gasampaiosouza/avatar-uploader/assets/47998700/1fe6f43b-e648-42a4-8805-4dd4e0a9b104)
 
-## 📟 Usage
+The Avatar Uploader is a simple and intuitive application that allows you to upload, move, resize, and save images to create personalized avatars!
 
-you can see this project live by [**clicking here**](avatar-uploader-ebon.vercel.app) or going to this repo's **about section**
-<br />
+### Key Features ✨
+- **Image Upload**: Quickly and easily upload your images to create your avatars.
+- **Movement**: Drag and drop to position your image within the avatar area.
+- **Resizing**: Adjust the image size to fit perfectly in your avatar.
+- **Simple Saving**: Save your creation with just one click.
+- **Error Handling**: Ensures only image files are accepted, with friendly error notifications.
 
----
-
-<br />
-
-if you want to see how it was made, you can follow those steps:
-
-1. clone this repository:
-
-```bash
-  $ git clone https://github.com/gasampaiosouza/avatar-uploader
-```
-
-2. install it's dependencies with:
-
-```bash
-  $ pnpm install
-```
-
-3. start developing and watch for code changes:
-
-```bash
-  $ pnpm dev
-```
-
-4. the dev environment will be available at: [*`http://localhost:5173/`*](http://localhost:5173/)
-
-## 📌 Stack
-
-- Vite (React)
-- Typescript
-- SCSS
-
-## 📚 Libs
-
-- [React easy crop](https://www.npmjs.com/package/react-easy-crop)
-- [React dropzone](https://www.npmjs.com/package/react-dropzone)
+Have fun creating your avatars! 🎉
